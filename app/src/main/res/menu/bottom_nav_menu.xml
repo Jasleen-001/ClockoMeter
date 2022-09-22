@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/clock"
+        android:id="@+id/timer"
         android:title="TIMER"
         android:icon="@drawable/ic_launcher_background"/>
     <item
-        android:id="@+id/Alarm"
+        android:id="@+id/clock"
         android:title="CLOCK"
         android:icon="@drawable/ic_launcher_background"/>
     <item
