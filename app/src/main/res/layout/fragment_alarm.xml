@@ -5,15 +5,14 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/black"
-    tools:context=".FragmentTimer">
+    tools:context=".FragmentAlarm">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:id="@+id/timerFragment"
+        android:id="@+id/alarmFragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Timer"
-
+        android:text="ALARM"
         android:textColor="#43a047"
         android:textSize="40sp"
         android:textStyle="italic|bold"

@@ -9,7 +9,7 @@ import android.view.MenuItem;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity{
     BottomNavigationView bottomNavigationView;
 
     @Override
@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         FragmentTimer timerFragment = new FragmentTimer();
         FragmentClock clockFragment = new FragmentClock();
         FragmentStopwatch stopwatchFragment = new FragmentStopwatch();
+        FragmentAlarm alarmFragment = new FragmentAlarm();
         bottomNavigationView.setSelectedItemId(R.id.clock);
         bottomNavigationView.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
             @Override
@@ -35,6 +36,10 @@ public class MainActivity extends AppCompatActivity {
                         getSupportFragmentManager().beginTransaction().replace(R.id.flFragment, timerFragment).commit();
                         return true;
 
+                    case R.id.alarm:
+                        getSupportFragmentManager().beginTransaction().replace(R.id.flFragment, alarmFragment).commit();
+                        return true;
+
                     case R.id.stopwatch:
                         getSupportFragmentManager().beginTransaction().replace(R.id.flFragment, stopwatchFragment).commit();
                         return true;
@@ -45,6 +50,8 @@ public class MainActivity extends AppCompatActivity {
 
         });
     }
+
+
 }
 
 

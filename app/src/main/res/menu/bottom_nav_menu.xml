@@ -9,6 +9,10 @@
         android:title="CLOCK"
         android:icon="@drawable/ic_launcher_background"/>
     <item
+        android:id="@+id/alarm"
+        android:title="ALARM"
+        android:icon="@drawable/ic_launcher_background"/>
+    <item
         android:id="@+id/stopwatch"
         android:title="STOPWATCH"
         android:icon="@drawable/ic_launcher_background"/>
