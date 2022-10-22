@@ -4,14 +4,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".FragmentSecond">
+    tools:context=".FragmentStopwatch">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:id="@+id/firstFragment"
+        android:id="@+id/stopwatchFragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CLOCK"
+        android:text="STOPWATCH"
         android:textColor="#43a047"
         android:textSize="40sp"
         android:textStyle="italic|bold"
